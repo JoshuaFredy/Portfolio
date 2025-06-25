@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fredy's Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- AOS Animation Library (optional) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Portfolio</h1>
+      <p class="tagline">Backend Developer | Java & Spring Boot Specialist</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#leetcode">LeetCode</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Me -->
+  <section id="about" class="section" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>Hi! I’m Fredy, a backend developer who enjoys building scalable REST APIs and backend systems using Java, Spring Boot, and MySQL. I’m passionate about clean architecture and solving real-world problems through code.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section" data-aos="fade-up">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>Java</li>
+      <li>Spring Boot</li>
+      <li>MySQL</li>
+      <li>JavaScript</li>
+      <li>REST APIs</li>
+      <li>Git</li>
+      <li>Postman</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section" data-aos="fade-up">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>Inventory Management System</h3>
+      <p>A full-stack web application to manage warehouse inventory with login, CRUD operations, and analytics dashboard.</p>
+      <p><strong>Tech:</strong> Java, Spring Boot, MySQL, Thymeleaf</p>
+      <a href="https://github.com/fredy/inventory-system" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>RESTful Task API</h3>
+      <p>A lightweight, secure REST API for managing tasks. Includes validation, pagination, and Swagger documentation.</p>
+      <p><strong>Tech:</strong> Java, Spring Boot, MySQL</p>
+      <a href="https://github.com/fredy/task-api" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>This responsive and modern personal portfolio showcasing my skills and projects.</p>
+      <p><strong>Tech:</strong> HTML5, CSS3, JavaScript</p>
+      <a href="https://github.com/fredy/portfolio" target="_blank">View on GitHub</a>
+    </div>
+  </section>
+
+  <!-- LeetCode Section -->
+  <section id="leetcode" class="section highlight" data-aos="fade-up">
+    <h2>LeetCode Achievement</h2>
+    <p>🧠 I’ve solved <strong>150+ LeetCode problems</strong> to enhance my algorithm and data structure skills.</p>
+    <p><a href="https://leetcode.com/lovable" target="_blank">View My LeetCode Profile</a></p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Fredy</p>
+    <div class="socials">
+      <a href="https://github.com/fredy" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/fredy" target="_blank">LinkedIn</a> |
+      <a href="https://leetcode.com/lovable" target="_blank">LeetCode</a>
+    </div>
+  </footer>
+
+  <!-- Scroll-to-top Button -->
+  <button id="scrollTopBtn" title="Go to top">↑</button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+  <!-- AOS Animation Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
